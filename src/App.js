@@ -1,26 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import NavBar, { ElementsWrapper } from 'react-scrolling-nav';
+
+import ScrollUpButton from "react-scroll-up-button";
+import NavBarSection from './components/NavBarSection'
+import About from './components/About'
+import Experience from './components/Experience'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
+import Banner from './components/Banner'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <div>
+                {/* <div className="container">
+                <NavBarSection />
+                </div> */}
+                <Banner />
+                <About />
+                <Experience />
+                <Portfolio />
+                <Contact />
+            </div>
+            <ScrollUpButton
+                StopPosition={0}
+                ShowAtPosition={150}
+                EasingType='easeOutCubic'
+                AnimationDuration={500}
+                ContainerClassName='ScrollUpButton__Container'
+                TransitionClassName='ScrollUpButton__Toggled'
+                style={{}}
+                ToggledStyle={{}}
+            />
+        </div>
+    );
 }
 
 export default App;

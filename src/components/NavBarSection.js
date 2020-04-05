@@ -1,0 +1,75 @@
+import React, { useEffect, useState } from 'react'
+import { Link, animateScroll as scroll } from "react-scroll";
+
+export default function NavBarSection() {
+    let [background, setBackground] = useState('nav-bar')
+    useEffect(() => {
+        document.addEventListener("scroll", () => {
+            const backgroundcolor = window.scrollY < 100 ? "nav-bar" : "nav-bar-scroll";
+            setBackground(backgroundcolor);
+        });
+    }, [])
+    return (
+
+        <nav className={`navbar ${background} px-5 navbar-expand-lg navbar-light fixed-top`}>
+            <div className="container my-2">
+                <span className="nav-branch font-weight-bold">Hung Portfolio</span>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ml-auto">
+                        <li classNameName="nav-item active" style={{ cursor: 'pointer' }}>
+                            <Link className="px-3 font-weight-bold"
+                                activeclassName="active"
+                                to="home"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}
+                            >Home</Link>
+                        </li>
+                        <li className="nav-item" style={{ cursor: 'pointer' }}>
+                            <Link className="px-3 font-weight-bold"
+                                activeclassName="active"
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                offset={-100}
+                                duration={500}
+                            >About</Link>
+                        </li>
+                        <li className="nav-item" style={{ cursor: 'pointer' }}>
+                            <Link className="px-3 font-weight-bold"
+                                activeclassName="active"
+                                to="experience"
+                                spy={true}
+                                smooth={true}
+                                offset={-50}
+                                duration={500}
+                            >Experience</Link>
+                        </li>
+                        <li className="nav-item rounded" style={{ cursor: 'pointer' }}>
+                            <Link className="px-3 font-weight-bold"
+                                activeclassName="active"
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                offset={-10}
+                                duration={500}
+                            >Projects</Link>
+                        </li>
+                        <li className="nav-item" style={{ cursor: 'pointer' }}>
+                            <Link className="px-3 font-weight-bold"
+                                activeclassName="active"
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >Contact</Link>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    )
+}
