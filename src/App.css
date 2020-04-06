@@ -38,6 +38,10 @@ body {
     color: rgb(64, 184, 64);
 }
 
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+
 .bg-img {
     background-image: url(../src/image/bg-developer.jpg);
     background-size: cover;
