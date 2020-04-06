@@ -8,11 +8,9 @@ export default function NavBarSection() {
         const backgroundcolor = window.scrollY < 100 ? "nav-bar" : "nav-bar-scroll";
             setBackground(backgroundcolor);
     }
-
-
     useEffect(() => {
         document.addEventListener("scroll", onScroll)
-        // return ()=>document.removeEventListener("scroll", haha)
+        // return ()=>document.removeEventListener("scroll", onScroll)
     }, [])
     // test di, van chay dc nhuwng e k hieu lam
     // ec, no k bi sao ca, e muon giai thich thoy @@
