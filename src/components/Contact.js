@@ -69,7 +69,7 @@ export default function Contact() {
                         </Form>
                     </Slide>
                 </div>
-                <div className="text-light mx-auto">© Copyright Hung-Portfolio 2020 . All Rights Reserved</div>
+                <div className="text-light mx-auto">© Hung-Portfolio 2020 . All Rights Reserved</div>
             </div>
         </div>
     )
