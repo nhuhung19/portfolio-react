@@ -30,7 +30,7 @@ export default function Portfolio() {
                 <Fade bottom>
                     <div className="col-lg-6">
                         <div className="card w-100 h-100" style={{ width: '18rem;' }}>
-                            <a href="https://twitter-clone-hb.netlify.com">
+                            <a href="https://twitter-clone-js.netlify.com">
                                 <img className="w-100 h-100" src={imgTwitter} className="card-img-top" alt="img" />
                             </a>
                             <div className="card-body mt-5">
@@ -38,8 +38,8 @@ export default function Portfolio() {
                                 <h5 className="card-title text-center">Twitter Clone (Group Project JS)</h5>
                                 <div className="text-center">
 
-                                    <button className="btn btn-success mx-2"><a style={{ color: 'white' }} href="https://twitter-clone-hb.netlify.com" className="card-link">Live Demo</a></button>
-                                    <button className="btn btn-info "><a style={{ color: 'white' }} href="https://github.com/AgentUnicorn/Cloning-Twitter" className="card-link">Github Repo</a></button>
+                                    <button className="btn btn-success mx-2"><a style={{ color: 'white' }} href="https://twitter-clone-js.netlify.com" className="card-link">Live Demo</a></button>
+                                    <button className="btn btn-info "><a style={{ color: 'white' }} href="https://github.com/nhuhung19/clone-twitter" className="card-link">Github Repo</a></button>
                                 </div>
                             </div>
                         </div>
