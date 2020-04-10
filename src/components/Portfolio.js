@@ -71,7 +71,7 @@ export default function Portfolio() {
                                 <h5 className="card-title text-center">Coder School Pricing (Bootstrap 4)</h5>
                                 <div className="text-center">
                                     <button className="btn btn-success mx-2"><a style={{ color: 'white' }} href="https://nhuhung-bootstrap-pricing.netlify.com" className="card-link">Live Demo</a></button>
-                                    <button className="btn btn-info "><a style={{ color: 'white' }} href="#" className="card-link">Github Repo</a></button>
+                                    <button className="btn btn-info "><a style={{ color: 'white' }} href="https://github.com/nhuhung19/bootstrap" className="card-link">Github Repo</a></button>
                                 </div>
                             </div>
 
