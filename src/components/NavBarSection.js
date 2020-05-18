@@ -10,24 +10,8 @@ export default function NavBarSection() {
     }
     useEffect(() => {
         document.addEventListener("scroll", onScroll)
-        // return ()=>document.removeEventListener("scroll", onScroll)
     }, [])
-    // test di, van chay dc nhuwng e k hieu lam
-    // ec, no k bi sao ca, e muon giai thich thoy @@
-    // test coi, van on a oi
-    // ua vay chu no bi gi? e chi? k hieu la useEffect chi chay 1 lan, ma e scroll len xuong no van chay
-    // cai funtion nay`, no add 1 effect vao` 1 event. nen chi? can add 1 lan xa`i suot doi` cua component
-    // co nghia la neu add event thi chay suot, con` function chi chay 1 lan uh?m
-    // lai cai moi :))), e biet rui` tks a
-    // ok
-    // co truong hop, neu e ca`i eventListener vao` 1 cai gi do, ma muon go~ no ra sau khi chuyen trang
-    // thi phai du`ng dong` 15 nhu a la`m 
-    // dong 15 tuc la gi ha? a, return la sao? hay la no chay 1 lan roi lan sau no' moi renturn
-    // no tu7o7ng duong voi componentWillUnMount
-    // la` khi thoat' khoi cai component nay, no' se chay cai function do. 
-    // e nho trc coi tren youtube cno bao la chay lan dau k return nhung chay lan sau se~ return
-    // return na`y y nghia khac voi return trong function bi`nh thuong
-    // roi thiet co document k a. Co, useEffect life cycle, google, oke a ah doi e xiu 
+
     return (
 
         <nav className={`navbar ${background} px-5 navbar-expand-lg navbar-light fixed-top`}>
