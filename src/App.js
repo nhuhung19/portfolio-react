@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavBar, { ElementsWrapper } from 'react-scrolling-nav';
-
 import ScrollUpButton from "react-scroll-up-button";
 import NavBarSection from './components/NavBarSection'
 import About from './components/About'

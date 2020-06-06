@@ -43,7 +43,7 @@ export default function Experience() {
         </div>
     const softSkills =
         <div className="col-lg-6 shadow-sm p-3 mb-5 bg-white">
-            <Rotate  right cascade>
+            <Fade  right cascade>
                 <OverlayTrigger
                     placement="right"
                     overlay={
@@ -86,7 +86,7 @@ export default function Experience() {
                         </div>
                     </div>
                 </main>
-            </Rotate >
+            </Fade >
         </div>
     return (
         <div className="bg-experiences" id="experience">

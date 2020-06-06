@@ -2,7 +2,7 @@ import React from 'react'
 import imgGame from '../image/canvas-game-1.png'
 import imgTwitter from '../image/twitter-3.png'
 import imgMovie from '../image/movie-app-1.png'
-import imgPricing from '../image/coderschool-pricing-1.png'
+import imgCakeTime from '../image/final-project-1.png'
 import Fade from 'react-reveal/Fade';
 import Roll from 'react-reveal/Roll';
 
@@ -65,13 +65,13 @@ export default function Portfolio() {
                     <div className="col-lg-6">
                         <div className="card" style={{ width: '18rem;' }}>
                             <a href="https://nhuhung-bootstrap-pricing.netlify.com">
-                                <img className="w-100 h-100" src={imgPricing} className="card-img-top" alt="img" />
+                                <img className="w-100 h-100" src={imgCakeTime} className="card-img-top" alt="img" />
                             </a>
                             <div className="card-body">
-                                <h5 className="card-title text-center">Coder School Pricing (Bootstrap 4)</h5>
+                                <h5 className="card-title text-center">Cake Time (Final Project)</h5>
                                 <div className="text-center">
-                                    <button className="btn btn-success mx-2"><a style={{ color: 'white' }} href="https://nhuhung-bootstrap-pricing.netlify.com" className="card-link">Live Demo</a></button>
-                                    <button className="btn btn-info "><a style={{ color: 'white' }} href="https://github.com/nhuhung19/bootstrap" className="card-link">Github Repo</a></button>
+                                    <button className="btn btn-success mx-2"><a style={{ color: 'white' }} href="https://e-commerce-caketime.netlify.app" className="card-link">Live Demo</a></button>
+                                    <button className="btn btn-info "><a style={{ color: 'white' }} href="https://github.com/nhuhung19/cake-time" className="card-link">Github Repo</a></button>
                                 </div>
                             </div>
 
