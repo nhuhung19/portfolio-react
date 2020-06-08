@@ -133,28 +133,28 @@ export default function Experience() {
                                             <div class="rounded-pill" style={{ width: '85%', height: '10px', backgroundImage: '-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%)' }}></div>
                                         </div>
                                     </div>
-                                    <p>Javascript 70%</p>
+                                    <p>Javascript 80%</p>
+                                    <div className="rounded-pill" style={{ width: '100%', height: '14px', border: '1px solid #eeeeee;', padding: '4px 2px 1px;' }}>
+                                        <div className="rounded-pill" style={{ width: '100%', height: '10px', background: '#777777' }}>
+                                            <div className="rounded-pill" style={{ width: '80%', height: '10px', backgroundImage: '-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%)' }}></div>
+                                        </div>
+                                    </div>
+                                    <p>ReactJS 85%</p>
+                                    <div className="rounded-pill" style={{ width: '100%', height: '14px', border: '1px solid #eeeeee;', padding: '4px 2px 1px;' }}>
+                                        <div className="rounded-pill" style={{ width: '100%', height: '10px', background: '#777777' }}>
+                                            <div className="rounded-pill" style={{ width: '85%', height: '10px', backgroundImage: '-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%)' }}></div>
+                                        </div>
+                                    </div>
+                                    <p>Node JS 75%</p>
                                     <div className="rounded-pill" style={{ width: '100%', height: '14px', border: '1px solid #eeeeee;', padding: '4px 2px 1px;' }}>
                                         <div className="rounded-pill" style={{ width: '100%', height: '10px', background: '#777777' }}>
                                             <div className="rounded-pill" style={{ width: '70%', height: '10px', backgroundImage: '-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%)' }}></div>
                                         </div>
                                     </div>
-                                    <p>ReactJS 65%</p>
+                                    <p>Git 75%</p>
                                     <div className="rounded-pill" style={{ width: '100%', height: '14px', border: '1px solid #eeeeee;', padding: '4px 2px 1px;' }}>
                                         <div className="rounded-pill" style={{ width: '100%', height: '10px', background: '#777777' }}>
-                                            <div className="rounded-pill" style={{ width: '65%', height: '10px', backgroundImage: '-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%)' }}></div>
-                                        </div>
-                                    </div>
-                                    <p>Node JS 60%</p>
-                                    <div className="rounded-pill" style={{ width: '100%', height: '14px', border: '1px solid #eeeeee;', padding: '4px 2px 1px;' }}>
-                                        <div className="rounded-pill" style={{ width: '100%', height: '10px', background: '#777777' }}>
-                                            <div className="rounded-pill" style={{ width: '60%', height: '10px', backgroundImage: '-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%)' }}></div>
-                                        </div>
-                                    </div>
-                                    <p>Git 60%</p>
-                                    <div className="rounded-pill" style={{ width: '100%', height: '14px', border: '1px solid #eeeeee;', padding: '4px 2px 1px;' }}>
-                                        <div className="rounded-pill" style={{ width: '100%', height: '10px', background: '#777777' }}>
-                                            <div className="rounded-pill" style={{ width: '60%', height: '10px', backgroundImage: '-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%)' }}></div>
+                                            <div className="rounded-pill" style={{ width: '75%', height: '10px', backgroundImage: '-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%)' }}></div>
                                         </div>
                                     </div>
                                 </main>
