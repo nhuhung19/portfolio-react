@@ -13,7 +13,7 @@ export default function Banner() {
           <h3 className="text-center ">
             <i className=" text-light far fa-share-square mr-2"></i> 
             
-            <a href="https://drive.google.com/file/d/1L7L6fmaw15P9EK9f0NBMiWaHae5RWeDk/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1F6kBiTKVkqazTXIHKjejtszRW3bHY04O/view?usp=sharing">
               <button type="button" className="btn btn-outline-light py-2 px-3">
                 <span style={{fontSize: "20px"}}>My Resume </span>
               </button>
