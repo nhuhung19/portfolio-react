@@ -12,10 +12,9 @@ export default function Banner() {
           <h1 className="text-light display-2">Hi, I'm Ta Nhu Hung</h1>
           <h3 className="text-center ">
             <i className=" text-light far fa-share-square mr-2"></i> 
-            
             <a href="https://drive.google.com/file/d/1F6kBiTKVkqazTXIHKjejtszRW3bHY04O/view?usp=sharing">
               <button type="button" className="btn btn-outline-light py-2 px-3">
-                <span style={{fontSize: "20px"}}>My Resume </span>
+                <span style={{fontSize: "22px"}}>My Resume </span>
               </button>
             </a>
           </h3>

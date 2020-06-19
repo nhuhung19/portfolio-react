@@ -6,7 +6,7 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faUniversity } from '@fortawesome/free-solid-svg-icons'
 import Fade from 'react-reveal/Fade';
 import LightSpeed from 'react-reveal/LightSpeed';
-import Rotate from 'react-reveal/Rotate';
+
 export default function Experience() {
     let [educations, setEducations] = useState(false)
     let [skills, setSkills] = useState(false)
