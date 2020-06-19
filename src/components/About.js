@@ -31,7 +31,7 @@ export default function About() {
                     <Fade right>
                         <div className="col-lg-6 about-text">
                             <p> </p>
-                            <p> - After 2 years as a math teacher, I realized that coding will be a bright career path for my life. I started coding with the effort and passion to make my dream come true.</p>
+                            <p> - After 1 and a half year as a math teacher, I realized that coding will be a bright career path for my life. I started coding with the effort and passion to make my dream come true.</p>
                             <p> - I love to work with people around me who has passionate coding, professional and funny.</p>
                             <p> - As a dynamic, enthusiastic developer with high flexibility to adapt to new working environment, I am seeking for opportunities to improve myself, as well as contribute to the company.</p>
                         </div>

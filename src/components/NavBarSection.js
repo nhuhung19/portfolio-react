@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 export default function NavBarSection() {
     let [background, setBackground] = useState('nav-bar')
@@ -48,7 +48,7 @@ export default function NavBarSection() {
                                 to="experience"
                                 spy={true}
                                 smooth={true}
-                                offset={-50}
+                                offset={-80}
                                 duration={500}
                             >Experience</Link>
                         </li>
@@ -58,7 +58,7 @@ export default function NavBarSection() {
                                 to="projects"
                                 spy={true}
                                 smooth={true}
-                                offset={-10}
+                                offset={-50}
                                 duration={500}
                             >Projects</Link>
                         </li>
@@ -68,7 +68,7 @@ export default function NavBarSection() {
                                 to="contact"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-80}
                                 duration={500}
                             >Contact</Link>
                         </li>

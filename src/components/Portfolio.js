@@ -3,8 +3,9 @@ import imgGame from '../image/canvas-game-1.png'
 import imgTwitter from '../image/twitter-3.png'
 import imgMovie from '../image/movie-app-1.png'
 import imgCakeTime from '../image/final-project-1.png'
+import imgMeme from '../image/meme-maker.png'
+import imgChatApp from '../image/chat-app.png'
 import Fade from 'react-reveal/Fade';
-import Roll from 'react-reveal/Roll';
 
 export default function Portfolio() {
     return (
@@ -50,6 +51,39 @@ export default function Portfolio() {
                 <Fade left>
                     <div className="col-lg-6">
                         <div className="card" style={{ width: '18rem;' }}>
+                            <a href="https://new-memes.herokuapp.com"><img className="w-100 h-100" src={imgMeme} className="card-img-top" alt="img" /></a>
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Meme Maker (Node JS)</h5>
+                                <div className="text-center">
+                                    <button className="btn btn-success mx-2"><a style={{ color: 'white' }} href="https://new-memes.herokuapp.com" className="card-link">Live Demo</a></button>
+                                    <button className="btn btn-info "><a style={{ color: 'white' }} href="https://github.com/nhuhung19/memes-nodejs" className="card-link">Github Repo</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Fade>
+                <Fade right>
+                    <div className="col-lg-6">
+                        <div className="card" style={{ width: '18rem;' }}>
+                            <a href="https://hung-chat-app.netlify.app/">
+                                <img className="w-100 h-100" src={imgChatApp} className="card-img-top" alt="img" />
+                            </a>
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Chat App (React & NodeJS)</h5>
+                                <div className="text-center">
+                                    <button className="btn btn-success mx-2"><a style={{ color: 'white' }} href="https://hung-chat-app.netlify.app/" className="card-link">Live Demo</a></button>
+                                    <button className="btn btn-info "><a style={{ color: 'white' }} href="https://github.com/nhuhung19/chatlog-front-end" className="card-link">Github Repo</a></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </Fade>
+            </div>
+            <div className="row mt-5">
+                <Fade left>
+                    <div className="col-lg-6">
+                        <div className="card" style={{ width: '18rem;' }}>
                             <a href="https://hungta-movie-app.netlify.com"><img className="w-100 h-100" src={imgMovie} className="card-img-top" alt="img" /></a>
                             <div className="card-body">
                                 <h5 className="card-title text-center">Movie IMDB (React JS)</h5>
@@ -68,7 +102,7 @@ export default function Portfolio() {
                                 <img className="w-100 h-100" src={imgCakeTime} className="card-img-top" alt="img" />
                             </a>
                             <div className="card-body">
-                                <h5 className="card-title text-center">Cake Time (Final Project)</h5>
+                                <h5 className="card-title text-center">Cake Time - Ecommerce (Final Project)</h5>
                                 <div className="text-center">
                                     <button className="btn btn-success mx-2"><a style={{ color: 'white' }} href="https://e-commerce-caketime.netlify.app" className="card-link">Live Demo</a></button>
                                     <button className="btn btn-info "><a style={{ color: 'white' }} href="https://github.com/nhuhung19/cake-time" className="card-link">Github Repo</a></button>

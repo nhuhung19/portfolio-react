@@ -31,8 +31,9 @@ export default function Experience() {
                 </OverlayTrigger>
                 <div className="mt-3">
                     <h4> <FontAwesomeIcon icon={faGraduationCap} /> Hai Phong University</h4>
-                    <p>Durations: (4 years) From July 2013 - June 2017</p>
-                    <p>Major: Mathematical Pedagogy</p>
+                    <p>Durations: (5 years) From July 2013 - June 2018</p>
+                    <p>Major: Bachelor of Mathematic </p>
+                    <p>Major: Mathematical Pedagogy </p>
                 </div>
                 <div>
                     <h4> <FontAwesomeIcon icon={faGraduationCap} /> Coder Scholl</h4>
@@ -106,10 +107,10 @@ export default function Experience() {
                                     >
                                         <Button onClick={toggleEdu} variant="secondary"><h2>Experiences</h2></Button>
                                     </OverlayTrigger>
-                                    <p className="mt-3"> <FontAwesomeIcon icon={faUniversity}/> July 2013 - June 2017 -Study at Hai Phong University major in mathematical pedagogy.</p>
-                                    <p> <FontAwesomeIcon icon={faBriefcase}/> September 2017 - June 2018 -Math teacher at Tran Hung Dao secondary school, Distric 12, Ho Chi Minh city.</p>
-                                    <p> <FontAwesomeIcon icon={faBriefcase}/> September 2018 - June 2019 -Math teacher at Phan Tay Ho sencondary school, Distric Go Vap, Ho Chi Minh city.</p>
-                                    <p> <FontAwesomeIcon icon={faUniversity}/> Ferbuary 2020 - Now -Study at "Coder School", Ho Chi Minh city. </p>
+                                    <p className="mt-3"> <FontAwesomeIcon icon={faUniversity}/> July 2013 - June 2018: Study at Hai Phong University major in mathematical pedagogy and bachelor of mathematic.</p>
+                                    <p> <FontAwesomeIcon icon={faBriefcase}/> September 2018 - December 2018: Math teacher at Tran Hung Dao secondary school, Distric 12, Ho Chi Minh city.</p>
+                                    <p> <FontAwesomeIcon icon={faBriefcase}/> January 2019 - December 2019: Math teacher at Phan Tay Ho sencondary school, Distric Go Vap, Ho Chi Minh city.</p>
+                                    <p> <FontAwesomeIcon icon={faUniversity}/> Ferbuary 2020 - Now: Study at "Coder School", Ho Chi Minh city. </p>
                                 </Fade>
                             </div>
                         }
